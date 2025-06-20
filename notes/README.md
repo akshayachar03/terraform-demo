@@ -101,9 +101,7 @@ terraform apply
 ---
 
 Example: Module Structure
-css
-Copy
-Edit
+```
 project/
 ├── main.tf
 ├── variables.tf
@@ -113,3 +111,4 @@ project/
         ├── main.tf
         ├── variables.tf
         └── outputs.tf
+```

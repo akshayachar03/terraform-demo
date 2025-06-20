@@ -99,3 +99,15 @@ terraform apply
 ```
 
 ---
+
+Module Structure
+
+project/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+└── modules/
+    └── ec2/
+        ├── main.tf
+        ├── variables.tf
+        └── outputs.tf

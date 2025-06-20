@@ -100,8 +100,10 @@ terraform apply
 
 ---
 
-Module Structure
-
+Example: Module Structure
+css
+Copy
+Edit
 project/
 ├── main.tf
 ├── variables.tf
